@@ -1,0 +1,11 @@
+.email-message__container{
+    border-top: 1px solid #b9b9b9;
+    width: auto;
+    
+}
+
+.email-message__card{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}

@@ -1,0 +1,46 @@
+.nav-container{
+    display:flex;
+}
+.nav-container__main{
+    width: 100%;
+    padding: 20px;
+}
+.nav-container__sidebar{
+    background: #000;
+    color: #fff;
+    height: 100vh;
+    width: 200px;
+    transition: all 0.5s;
+}
+.nav-container__top{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.nav-container__logo{
+    font-size: 30px;
+}
+.nav-container__bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.nav-container__link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.nav-container__link:hover{
+    background:lightskyblue;
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: lightskyblue;
+    color: #000;
+}
+.nav-container__icon, .nav-container__linkText{
+    font-size: 20px;
+}

@@ -1,0 +1,7 @@
+
+.email-list__container{
+    height: 400px;
+    overflow: auto;
+    /* cursor: pointer; */
+
+}

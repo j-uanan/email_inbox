@@ -1,0 +1,55 @@
+.email-list-item{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    border-top: 1px solid #b9b9b9;
+    justify-content: space-between;
+    border-left: 5px solid rgb(11, 3, 113);
+}
+.email-list-item.read{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    border-top: 1px solid #b9b9b9;
+    justify-content: space-between;
+    /* border-left: 5px solid #031974; */
+}
+.email-list-item__title{
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.email-list-item__senderInfo{
+    padding: 0 0.6rem;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email-list-item-__date{
+    font-size: 13px;
+    padding-left: 3rem;
+}
+
+.email-list-item__icon{
+    padding: 30px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+.email-list-item__tag{
+    font-size: 10px;
+    color: #FFF;
+    background-color: rgb(1, 149, 1);
+    margin: 5px;
+    padding: 0px 5px 2px 5px;
+    border-radius: 10px
+}
+
+.email-list-handler{
+    cursor: pointer;
+}
